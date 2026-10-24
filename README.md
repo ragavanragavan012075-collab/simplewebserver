@@ -36,7 +36,7 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-
+```
 ragavan.py
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
@@ -118,6 +118,7 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my own webserver is running successfully...")
 httpd.serve_forever()
+```
 ## OUTPUT:
 webpage
 ![alt text](image-1.png)
